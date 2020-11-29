@@ -1,0 +1,208 @@
+<b> Timeline Draft <b> 
+
+</n>
+
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+</head> 
+
+	<title> 
+		HTML border Property 
+	</title> 
+	
+	<!-- style to create vertical line -->
+	<style> 
+
+    div.relative {
+        position: relative;
+        width: 100px;
+        top: 20px;
+        /*height: 200px;*/
+        /*border: 3px solid #73AD21;*/
+    }
+
+    div.absolute {
+      position: absolute;
+      /*top: 350px;  middle of the timeline*/
+      right: 0;
+      left:-30;
+      width: 200px;
+      /*height: 100px;*/
+      /*border: 3px solid #73AD21;*/
+    }
+
+    figure.absolute {
+      position: absolute;
+      /*top: 350px;  middle of the timeline*/
+      right: 0;
+      width: 200px;
+      /*height: 100px;*/
+      border: 3px solid #73AD21;
+    }
+
+	div.vertical { 
+			border-left: 6px solid black; 
+            top: 100px;
+			height: 700px;  /*  1 pixel = 10 years*/
+			position:absolute; 
+			left: 160px; 
+		} 
+
+	/*.square-set,*/
+	.square {
+	  /*border-radius: 15px;*/
+	}
+	.timeline_text {
+	  background: darkgrey;
+      position: absolute;
+      left:100px;
+	}
+	.square {
+      position: absolute;
+      z-index: 1;
+      /*border: solid;*/
+
+      height: 0px;
+      /*margin-bottom: 1em;*/
+      /*margin-top: 2em;*/
+      width: 90px;
+      /*height: 30px;*/
+      /*line-height: 40px;*/
+      text-align: left;
+      width: 90px;
+      opacity: 0.5;
+	}
+/*    .square-1 {
+      position: relative;
+      z-index: 1;
+      border: dashed;
+      height: 2em;
+      margin-bottom: 1em;
+      left: 30px;
+      top: 100px;
+      /*margin-top: 2em;*/
+    /*}*/
+
+    .square5000BC {
+        top: 0px;
+        /*position: absolute;*/
+    }
+	.square4000 {
+      background: Green;
+      top: 100px;
+    }
+    .square3000 {
+      background: Green;
+      top: 200px;
+    }
+    .square2000 {
+      background: Green;
+      top: 300px;
+    }
+    .square1000 {
+      background: Green;
+      top: 400px;
+    }
+    .square1AD {
+      background: Green;
+      top: 500px;
+    }
+    .square10AD {
+      top: 600px;
+    }
+    .square20AD {
+      top: 700px;
+    }
+
+
+
+</style> 
+
+
+
+<body style = "text-align: center;"> 
+
+	<h1 style = "color: blue;"> 
+		History of the Blue Marble Draft
+	</h1> 
+		
+	<div class = "vertical">
+        <div class = "absolute"> 
+            <!-- </div> -->
+        <div class="square-set">
+      <figure class="square20AD square">2000 AD </figure>
+        </div>
+
+    	<div class="square-set">
+      <figure class="square5000BC square">5000 BC </figure>
+        </div>
+
+        <div class="square-set">
+      <figure class="square4000 square">4000 BC </figure>
+        </div>
+
+        <div class="square-set">
+      <figure class="square3000 square" >3000 BC </figure>
+        </div>
+
+        <div class="square-set">
+      <figure class="square2000 square" >2000 BC </figure>
+        </div>
+
+        <div class="square-set">
+      <figure class="square1000 square" >1000 BC </figure>
+        </div>
+
+        <div class="square-set">
+      <figure class="square square1AD">1 AD </figure>
+        </div>
+
+        <div class="square-set">
+      <figure class="square10AD square">1000 AD </figure>
+        </div>
+
+        <div class="square-set">
+      <figure class="square10AD timeline_text">Example </figure>
+        </div>
+
+      </div>
+    </div>
+
+
+</body> 
+
+
+
+
+
+
+</html>		
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+ <script src = 'timeline.js'></script>
+
+
+
